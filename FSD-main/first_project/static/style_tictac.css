@@ -1,0 +1,123 @@
+body {
+    background-image: url('bck1.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-size: 50px;
+    position: relative;
+    background: linear-gradient(
+    to right,
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; 
+}
+
+.p1 {
+    background: linear-gradient(
+    to right,
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+p {
+    font-style: italic;
+    position: relative;
+     
+}
+#plr1, #plr2 {
+    font-style: normal;
+    background: linear-gradient(
+    to right,
+    hsl(98 100% 62%), 
+    hsl(204 100% 59%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 25px;
+}
+
+    /* 3*3 Grid */
+#b1, #b2, #b3, #b4, #b5, 
+#b6, #b7, #b8, #b9 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-inline: 7px;   
+    margin-bottom: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    }
+ 
+    /* Reset Button */
+#butn {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: none;
+    margin: auto;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(200, 214, 0, 0.658);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    }
+ 
+    /* Player turn space */
+#print {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(
+    to right,
+    rgb(238, 255, 0), 
+    rgb(102, 255, 0)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; 
+    font-size: 22px;
+    }
+ 
+    /* Main Container */
+.main {
+    text-align: center; 
+}
+
+.main::before{    
+    content: "";
+    background-color: rgb(0, 0, 0);
+    top: 10px;
+    right: 300px;
+    bottom: 10px;
+    left: 300px;
+    opacity: 0.65;
+    position: absolute;
+
+}
+
+
+    /* Game Instruction Text */
+#inst {
+    font-family: 'Times New Roman', Times, serif;         
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    }
+
+#frst {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic;
+}
